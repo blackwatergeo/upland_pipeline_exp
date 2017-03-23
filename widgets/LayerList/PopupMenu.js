@@ -48,6 +48,7 @@ define([
         "MoveupOrMovedown": "moveup movedown",
         "OpenAttributeTable": "table",
         "DescriptionOrShowItemDetailsOrDownload": "url",
+        //exp JE  
 		"Metadata": "meta"
       };
       this._deniedItems = [];

@@ -26,6 +26,33 @@ td, th{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.map .logo-med {
+        
+ display: inline-block;
+    vertical-align: bottom;
+    width: 100px  !important;
+    height: 50px  !important;
+    z-index: 30;
+    background-image: url("exp_logo2.png");
+    cursor: pointer;
+    _background-image: none;
+}
+
+
+.map .logo-sm {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100px;
+    height: 50px;
+    z-index: 30;
+    background-image: url("exp_logo2.png");
+    cursor: pointer;
+    _background-image: none;
+}
+
+
+
 /************* change map CSS**********************/
 .esriSimpleSliderTL{
   top: 5px;
@@ -165,7 +192,7 @@ body,html{
 /***************************************************************************
 classes can be used in the html
 ****************************************************************************/
-.jimu-main-background{background-color: #485566;}
+.jimu-main-background{background-color: transparent;}
 .jimu-main-background-2{background-color: white;}
 
 .jimu-ellipsis{

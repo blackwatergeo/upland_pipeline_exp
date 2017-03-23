@@ -63,7 +63,7 @@
   opacity: 1;
 }
 .jimu-widget-header-controller .icon-node.jimu-state-selected{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #ccdbe2;
   opacity: 1;
   border: none;
   border-top: 2px solid #8491a1;
@@ -222,7 +222,8 @@
   background: #1d2123 url(images/close.png) no-repeat center center;
 }
 .jimu-header-more-popup .icon-node{
-  background-color: #697a8c;
+  background-image:none;
+  background-color: #286f6d;
   cursor: pointer;
 }
 .jimu-header-more-popup .icon-node.jimu-state-selected{
