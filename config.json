@@ -17,7 +17,7 @@
   "appId": "",
   "authorizedCrossOriginDomains": [], 
   "keepAppState": false,
-  "logo": "",
+  "logo": "images\\logo.png",,
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {

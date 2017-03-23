@@ -26,10 +26,12 @@ define([
     'dijit/registry',
     './LayerListView',
     './NlsStrings',
-    'jimu/LayerInfos/LayerInfos'
+    'jimu/LayerInfos/LayerInfos',
+    'dojo/dom-class',
+    'dojo/dom-style'
   ],
   function(BaseWidget, declare, lang, array, html, dom, on,
-  query, registry, LayerListView, NlsStrings, LayerInfos) {
+  query, registry, LayerListView, NlsStrings, LayerInfos, domClass, domStyle) {
 
     var clazz = declare([BaseWidget], {
       //these two properties is defined in the BaseWiget
@@ -43,7 +45,7 @@ define([
       //operLayerInfos: Object{}
       //  operational layer infos
       operLayerInfos: null,
-
+      
       startup: function() {
         this.inherited(arguments);
         NlsStrings.value = this.nls;
@@ -182,7 +184,106 @@ define([
         this.own(on(this.operLayerInfos,
           'layerInfosRendererChanged',
           lang.hitch(this, this._onLayerInfosRendererChanged)));
+      
+              //exp begin
+        this.own(on(this.filterTextBox, 'keydown', lang.hitch(this, function(evt){
+            if (this.filterTextBox.value.length > -1)
+            {
+              this.filterTextBox.style.color = "#000000";
+            }
+            else
+            {
+              this.filterTextBox.style.color = "#d9dde0";
+            }
+            
+            if (evt.keyCode === 13)
+            {
+              this._onFilterClicked2();
+            }
+        })));
+        //exp end 
       },
+      
+        //exp begin
+        
+        _resetFilter: function(){
+            
+            this.filterTextBox.value = "";
+            this.filterTextBox.style.color = "#d9dde0";
+            var rowLayers = query(".jimu-widget-row.layer-row");
+            var titleLayers = query(".div-content.jimu-float-leading");
+            for (var x = 0; x < rowLayers.length; x++) 
+            {
+                domStyle.set(titleLayers[x],"background-color","");
+                var parentClass = rowLayers[x].parentNode.getAttribute("class");
+                if (parentClass === "layers-list-body")
+                {
+                    rowLayers[x].style.display = '';
+                    
+                }
+            };
+   
+        },      
+
+        _onFilterClicked2: function (){
+
+            var searchLength = this.filterTextBox.value.length;
+            var searchValue = this.filterTextBox.value.toString().toLowerCase();
+            var stringFound = false;
+            
+            var rowNodes = query(".jimu-widget-row.layer-row");
+            for (var x = 0; x < rowNodes.length; x++) {
+            
+                var rowTitleNode = query(".div-content.jimu-float-leading", rowNodes[x])[0];
+                domStyle.set(rowTitleNode, "background-color", "");
+                
+                if (searchLength !== 0 && rowTitleNode.innerHTML.toString().toLowerCase().indexOf(searchValue) !== -1) {
+                    stringFound = true;
+                    var rowID = rowNodes[x].getAttribute("layerTrNodeID");
+                    
+                    domStyle.set(rowTitleNode, "background-color", "yellow");
+                    //domClass.add(rowTitleNode, 'expLayerFind');
+                    
+                    //console.log("BEGIN " + rowTitleNode.innerHTML + " : " + rowID);
+                    
+                    try {
+                    
+                        var parentGroupID = rowNodes[x].parentNode.parentNode.parentNode.getAttribute("layerContentTrNodeId");
+                        rowNodes[x].parentNode.style.display = "table";
+                        
+                        do {
+                            //console.log(parentGroupID);
+                            var parentGroupInfo = document.querySelectorAll("[layerTrNodeID='" + parentGroupID + "']")[0];
+                            var pgiParentClass = parentGroupInfo.parentNode.getAttribute("class");
+                            if (pgiParentClass !== "layers-list-body"){
+                                parentGroupInfo.parentNode.style.display = "table";
+                            };
+                            
+                            var parentGroupImg = query(".showLegend-div", parentGroupInfo)[0];
+                            domClass.add(parentGroupImg, 'unfold');
+                            //console.log(parentGroupImg);
+                            parentGroupID = parentGroupInfo.parentNode.parentNode.parentNode.getAttribute("layerContentTrNodeId");
+                            
+                        }
+                        while (parentGroupID !== null);
+                        
+                    } 
+                    catch (err) {
+                        console.log(err);
+                        continue;
+                    }
+                    
+                //console.log("END");
+                };
+            };
+            
+            if (stringFound === false) {
+                alert("Search text not found");
+            }
+        },
+        
+
+        //exp end
 
       _onLayerInfosChanged: function(/*layerInfo, changedType*/) {
         this._refresh();

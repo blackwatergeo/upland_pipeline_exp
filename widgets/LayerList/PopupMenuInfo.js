@@ -60,12 +60,14 @@ define([
         (this._layerType === "CSVLayer" || this._layerType === "KMLLayer")) {
         url = layerUrl;
         label = this.nls.itemDownload;
+          //exp JE start
       } else if (layerUrl && this._layerType === "WMSLayer") {
         url = layerUrl + (layerUrl.indexOf("?") > -1 ? "&" : "?") + "SERVICE=WMS&REQUEST=GetCapabilities";
         label = this.nls.itemDesc;
       } else if (layerUrl && this._layerType === "WFSLayer") {
         url = layerUrl + (layerUrl.indexOf("?") > -1 ? "&" : "?") + "SERVICE=WFS&REQUEST=GetCapabilities";
         label = this.nls.itemDesc;
+          //exp JE End
       } else if (layerUrl) {
         url = layerUrl;
         label = this.nls.itemDesc;
