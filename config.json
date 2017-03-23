@@ -15,9 +15,7 @@
   },
   "portalUrl": "https://gisbeta.exp.com/exp_portal",
   "appId": "",
-  "authorizedCrossOriginDomains": [],
-  "title": "Upland Pipeline",
-  "subtitle": "",
+  "authorizedCrossOriginDomains": [], 
   "keepAppState": false,
   "logo": "",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
@@ -30,7 +28,7 @@
           "left": 0,
           "top": 0,
           "right": 0,
-          "height": 40,
+          "height": 60,
           "relativeTo": "browser"
         },
         "version": "2.1",
@@ -63,7 +61,9 @@
         "id": "widgets_Search_Widget_3",
         "icon": "widgets/Search/images/icon.png?wab_dv=2.1",
         "name": "Search",
-        "label": "Search"
+        "label": "Search",
+          "config": "configs/Search/config_Search.json"
+          
       },
       {
         "uri": "widgets/Coordinate/Widget",
@@ -228,7 +228,7 @@
     "2D": true,
     "position": {
       "left": 0,
-      "top": 40,
+      "top": 60,
       "right": 0,
       "bottom": 0
     },
