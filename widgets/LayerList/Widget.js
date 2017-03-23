@@ -664,15 +664,15 @@ require({
         },
         "url:widgets/LayerList/PopupMenu.html": '\x3cdiv\x3e\r\n  \x3cdiv class\x3d"popup-menu-transparency-body" data-dojo-attach-point\x3d"transparencyDiv" data-dojo-attach-event\x3d"onclick:_onTransparencyDivClick" \x3e\r\n    \x3cdiv class\x3d"label"\x3e\r\n      \x3cdiv class\x3d"label-left jimu-float-leading"\x3e${nls.itemOpaque}\x3c/div\x3e\r\n      \x3cdiv class\x3d"label-right jimu-float-trailing"\x3e${nls.itemTransparent}\x3c/div\x3e\r\n    \x3c/div\x3e\r\n    \x3cdiv data-dojo-attach-point\x3d"transparencyBody"\x3e \r\n      \x3col data-dojo-attach-point\x3d"transparencyRule" class\x3d"transparency-rule"\x3e \x3c/ol\x3e\r\n    \x3c/div\x3e\r\n  \x3c/div\x3e\r\n\x3cdiv\x3e\r\n',
         "url:widgets/LayerList/LayerListView.html": '\r\n\r\n\x3ctable class\x3d"layer-list-table"\x3e\r\n  \x3ctbody class\x3d"layers-list-body" data-dojo-attach-point\x3d"layerListTable"\x3e\x3c/tbody\x3e\r\n  \x3ctbody class\x3d"layers-list-body" data-dojo-attach-point\x3d"tableListTable"\x3e\x3c/tbody\x3e       \r\n\x3c/table\x3e\r\n',
-        "url:widgets/LayerList/Widget.html": '\x3cdiv\x3e\r\n  \x3cdiv class\x3d"layers-section" data-dojo-attach-point\x3d"layersSection"\x3e\r\n    \x3cdiv class\x3d" layer-list-title"\x3e${nls.titleLayers}\x3c/div\x3e\r\n    \x3cdiv class\x3d"layer-list-body" data-dojo-attach-point\x3d"layerListBody"\x3e\r\n    \x3c/div\x3e\r\n  \x3c/div\x3e\r\n\x3c/div\x3e\r\n',
-        "url:widgets/LayerList/css/style.css": ".jimu-widget-layerList{position: relative;}.jimu-widget-layerList .jimu-hr{margin-top: 15px;}.jimu-widget-layerList .layers-section{margin-top: 0px;}.jimu-widget-layerList .layers-section .layers-list{width: 100%;}.jimu-widget-layerList .layers-section .layer-list-title{height: 16px; font-size: 14px; color: #86909c; margin-top: 14px;}.jimu-widget-layerList .layer-list-body {}.jimu-widget-layerList .layer-list-table{width: 100%; border-spacing: 0px;}.jimu-widget-layerList .layers-list-body{border: 0px solid #999;}.jimu-widget-layerList .jimu-widget-row{}.jimu-widget-layerList .layer-row{background-color: #ffffff; height: 40px;}.jimu-widget-layerList .layer-row-mouseover{background-color: #e3ecf2;}.jimu-widget-layerList .jimu-widget-row-selected{background-color: #d9dde0;;}.jimu-widget-layerList .jimu-widget-row-active{background-color: #009cff;}.jimu-widget-layerList .jimu-widget-row-selected .col-layer-label{color: #333;}.jimu-widget-layerList .jimu-widget-row-active .col-layer-label{color: #fff;}.jimu-widget-layerList .col{border: 0px solid; border-bottom: 0px solid #ffffff;}.jimu-widget-layerList .col1{}.jimu-widget-layerList .col2{width: auto; word-break: break-word; cursor: pointer;}.jimu-widget-layerList .col3{width: 24px;}.jimu-widget-layerList .begin-blank-div{width: 12px; height: 2px;}.jimu-widget-layerList .col-showLegend{width: 17px; text-align: center;}.jimu-widget-layerList .showLegend-div{width: 13px; height: 13px; cursor: pointer; font-size: 2px;}.jimu-widget-layerList .showLegend-image{margin-top: 4px; font-size: 3px;}.jimu-widget-layerList .layers-list-imageShowLegend-down{-moz-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); -webkit-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); -o-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); -ms-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);}.jimu-widget-layerList .layers-list-imageShowLegend-down-div{background-color: #d9dde0;}.jimu-widget-layerList .noLegend-div{width: 33px; text-align: right; display: none;}.jimu-widget-layerList .noLegend-image{display: block; margin: 0 auto;}.jimu-widget-layerList .col-blank{width:17px;}.jimu-widget-layerList .col-select{width: 17px;}.jimu-widget-layerList .col-reserve-blank{width: 25px;}.jimu-widget-layerList .col-content{color: #686868; font-size: 12px;}.jimu-widget-layerList .div-select{position: relative; font-size: 2px;}.jimu-widget-layerList .div-select .checkbox{cursor: auto;}.jimu-widget-layerList .div-content{position: relative; color: #686868; font-size: 12px; border: 0px solid;}.jimu-widget-layerList .col-popupMenu{width: 17px; text-align: center;}.jimu-widget-layerList .col-select .jimu-selection-box{margin-top: 5px;}.jimu-widget-layerList .layers-list-body .col-layer-label{color: #686868;}.jimu-widget-layerList .layer-sub-node{display: none; width:100%; border-spacing: 0px;}.jimu-widget-layerList .legend-node-td{}.jimu-widget-layerList .legend-div{overflow: hidden; font-size: 11px;}.jimu-widget-layerList .legend-symbol{}.jimu-widget-layerList .legend-label{margin-top: 17px; color: #686868; font-size: 11px;}.jimu-widget-layerList .layers-list-popupMenu-div{position: relative; width: 16px; height: 40px; cursor: pointer; border-radius: 2px; float: right; padding-top: 14px;}.jimu-widget-layerList .layers-list-popupMenu-div .jimu-loading{width: 20px; height: 20px; margin-top: -11px; margin-left: -11px;}.jimu-rtl .jimu-widget-layerList .layers-list-popupMenu-div .jimu-loading{margin-right: -11px;}.jimu-widget-layerList .layers-list-popupMenu-div-selected{width: 13px; height: 13px; background-color: #ffffff; border-radius: 2px;}.jimu-widget-layerList .layers-list-popupMenu-image{position: absolute; top: 5px; left: 3px;}.jimu-widget-layerList .popup-menu-transparency-body {position: absolute; background-color: #d9dde0; outline-color:#ffffff; outline-style:solid; outline-width:1px; width:184px; height:50px; padding-left: 2%; padding-right: 2%; color: #686868; z-index: 2; font-size: 12px; display: none;}.jimu-widget-layerList .popup-menu-transparency-body .transparency-rule{}.jimu-widget-layerList .popup-menu-transparency-body .label {overflow: hidden; margin-top: 2px; margin-bottom: 1px;}.jimu-widget-layerList .jimu-dropmenu .jimu-icon-btn{width: 13px; height: 13px; min-height: 13px; min-width: 13px; border-radius: 2px;}.jimu-widget-layerList .jimu-dropmenu .jimu-icon-btn-selected{background-color: #ffffff; border: 1px solid #ffffff;}.jimu-widget-layerList .jimu-dropmenu .drop-menu{outline-color:#ffffff; outline-style:solid; outline-width:1px; overflow:auto; color: #686868; font-size: 12px; z-index: 2; min-width: 119px; right: 0px;}.jimu-rtl .jimu-widget-layerList .jimu-dropmenu .drop-menu{left: 0px;}.jimu-widget-layerList .jimu-dropmenu .menu-item{line-height: 25px; white-space: nowrap;}.jimu-widget-layerList .jimu-dropmenu .menu-item-dissable{color:#c1c1c1;}.jimu-widget-layerList .legends-loading-img{width: 30px; height: 30px;}.jimu-widget-layerList .jimu-dropmenu .menu-item .menu-item-description{text-decoration: none; color: inherit; display: block;}",
+        "url:widgets/LayerList/Widget.html": '\x3cdiv\x3e\r\n \x3cdiv\x3e\r\n\t\x3cdiv class\x3d"jimu-r-row exp-layerSearch-section"\x3e\r\n\x3cinput class\x3d"jimu-input exp-layerSearch-input" data-dojo-attach-point\x3d"filterTextBox" type\x3d"text" placeholder\x3d"search layers"\x3e\r\n\x3cdiv class\x3d"exp-layerSearch-btn" data-dojo-attach-point\x3d"expLayerSearchBtn" data-dojo-attach-event\x3d"onclick:_onFilterClicked2" title\x3d"search"\x3e\x3cdiv class\x3d"jimu-center-img"\x3e\x3c/div\x3e\x3c/div\x3e\r\n\x3cdiv class\x3d"exp-layerSearch-reset-btn" data-dojo-attach-point\x3d"filterResetBtn" data-dojo-attach-event\x3d"onclick:_resetFilter" title\x3d"remove"\x3e\x3cdiv class\x3d"jimu-center-img"\x3e\x3c/div\x3e\x3c/div\x3e\r\n\x3c/div\x3e\r\n \x3cdiv class\x3d"layers-section" data-dojo-attach-point\x3d"layersSection"\x3e\r\n    \x3cdiv class\x3d" layer-list-title"\x3e${nls.titleLayers}\x3c/div\x3e\r\n    \x3cdiv class\x3d"layer-list-body" data-dojo-attach-point\x3d"layerListBody"\x3e\r\n    \x3c/div\x3e\r\n  \x3c/div\x3e\r\n\x3c/div\x3e\r\n\x3c/div\x3e\r\n',
+        "url:widgets/LayerList/css/style.css": ".jimu-widget-layerList{position: relative;}.jimu-widget-layerList .jimu-hr{margin-top: 15px;}.jimu-widget-layerList .layers-section{margin-top: 0px;}.jimu-widget-layerList .layers-section .layers-list{width: 100%;}.jimu-widget-layerList .layers-section .layer-list-title{height: 16px; font-size: 14px; color: #86909c; margin-top: 14px;}.jimu-widget-layerList .layer-list-body {}.jimu-widget-layerList .layer-list-table{width: 100%; border-spacing: 0px;}.jimu-widget-layerList .layers-list-body{border: 0px solid #999;}.jimu-widget-layerList .jimu-widget-row{}.jimu-widget-layerList .layer-row{background-color: #ffffff; height: 40px;}.jimu-widget-layerList .layer-row-mouseover{background-color: #e3ecf2;}.jimu-widget-layerList .jimu-widget-row-selected{background-color: #d9dde0;;}.jimu-widget-layerList .jimu-widget-row-active{background-color: #009cff;}.jimu-widget-layerList .jimu-widget-row-selected .col-layer-label{color: #333;}.jimu-widget-layerList .jimu-widget-row-active .col-layer-label{color: #fff;}.jimu-widget-layerList .col{border: 0px solid; border-bottom: 0px solid #ffffff;}.jimu-widget-layerList .col1{}.jimu-widget-layerList .col2{width: auto; word-break: break-word; cursor: pointer;}.jimu-widget-layerList .col3{width: 24px;}.jimu-widget-layerList .begin-blank-div{width: 12px; height: 2px;}.jimu-widget-layerList .col-showLegend{width: 17px; text-align: center;}.jimu-widget-layerList .showLegend-div{width: 13px; height: 13px; cursor: pointer; font-size: 2px;}.jimu-widget-layerList .showLegend-image{margin-top: 4px; font-size: 3px;}.jimu-widget-layerList .layers-list-imageShowLegend-down{-moz-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); -webkit-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); -o-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); -ms-transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg); transform: scale(1) rotate(270deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);}.jimu-widget-layerList .layers-list-imageShowLegend-down-div{background-color: #d9dde0;}.jimu-widget-layerList .noLegend-div{width: 33px; text-align: right; display: none;}.jimu-widget-layerList .noLegend-image{display: block; margin: 0 auto;}.jimu-widget-layerList .col-blank{width:17px;}.jimu-widget-layerList .col-select{width: 17px;}.jimu-widget-layerList .col-reserve-blank{width: 25px;}.jimu-widget-layerList .col-content{color: #686868; font-size: 12px;}.jimu-widget-layerList .div-select{position: relative; font-size: 2px;}.jimu-widget-layerList .div-select .checkbox{cursor: auto;}.jimu-widget-layerList .div-content{position: relative; color: #686868; font-size: 12px; border: 0px solid;}.jimu-widget-layerList .col-popupMenu{width: 17px; text-align: center;}.jimu-widget-layerList .col-select .jimu-selection-box{margin-top: 5px;}.jimu-widget-layerList .layers-list-body .col-layer-label{color: #686868;}.jimu-widget-layerList .layer-sub-node{display: none; width:100%; border-spacing: 0px;}.jimu-widget-layerList .legend-node-td{}.jimu-widget-layerList .legend-div{overflow: hidden; font-size: 11px;}.jimu-widget-layerList .legend-symbol{}.jimu-widget-layerList .legend-label{margin-top: 17px; color: #686868; font-size: 11px;}.jimu-widget-layerList .layers-list-popupMenu-div{position: relative; width: 16px; height: 40px; cursor: pointer; border-radius: 2px; float: right; padding-top: 14px;}.jimu-widget-layerList .layers-list-popupMenu-div .jimu-loading{width: 20px; height: 20px; margin-top: -11px; margin-left: -11px;}.jimu-rtl .jimu-widget-layerList .layers-list-popupMenu-div .jimu-loading{margin-right: -11px;}.jimu-widget-layerList .layers-list-popupMenu-div-selected{width: 13px; height: 13px; background-color: #ffffff; border-radius: 2px;}.jimu-widget-layerList .layers-list-popupMenu-image{position: absolute; top: 5px; left: 3px;}.jimu-widget-layerList .popup-menu-transparency-body {position: absolute; background-color: #d9dde0; outline-color:#ffffff; outline-style:solid; outline-width:1px; width:184px; height:50px; padding-left: 2%; padding-right: 2%; color: #686868; z-index: 2; font-size: 12px; display: none;}.jimu-widget-layerList .popup-menu-transparency-body .transparency-rule{}.jimu-widget-layerList .popup-menu-transparency-body .label {overflow: hidden; margin-top: 2px; margin-bottom: 1px;}.jimu-widget-layerList .jimu-dropmenu .jimu-icon-btn{width: 13px; height: 13px; min-height: 13px; min-width: 13px; border-radius: 2px;}.jimu-widget-layerList .jimu-dropmenu .jimu-icon-btn-selected{background-color: #ffffff; border: 1px solid #ffffff;}.jimu-widget-layerList .jimu-dropmenu .drop-menu{outline-color:#ffffff; outline-style:solid; outline-width:1px; overflow:auto; color: #686868; font-size: 12px; z-index: 2; min-width: 119px; right: 0px;}.jimu-rtl .jimu-widget-layerList .jimu-dropmenu .drop-menu{left: 0px;}.jimu-widget-layerList .jimu-dropmenu .menu-item{line-height: 25px; white-space: nowrap;}.jimu-widget-layerList .jimu-dropmenu .menu-item-dissable{color:#c1c1c1;}.jimu-widget-layerList .legends-loading-img{width: 30px; height: 30px;}.jimu-widget-layerList .jimu-dropmenu .menu-item .menu-item-description{text-decoration: none; color: inherit; display: block;} .jimu-widget-layerList .exp-layerSearch-btn .jimu-center-img{border-top: 1px solid rgba(255, 255, 255, 0.2); background-image: url(images/search.png);} .jimu-widget-layerList .exp-layerSearch-section{position: relative; height: 30px; margin-top: 7px; overflow: visible;} .jimu-widget-layerList .exp-layerSearch-input{border-top-right-radius: 0; border-bottom-right-radius: 0; position: absolute; left: 0; top: 0; width: 100%;} .jimu-widget-layerList .exp-layerSearch-btn{position: absolute; right: 30px; top: 1px; bottom: 1px; width: 30px; z-index: 2; border-top-right-radius: 2px; border-bottom-right-radius: 2px; background-color: #d9dde0; cursor: pointer;} .jimu-widget-layerList .exp-layerSearch-reset-btn{position: absolute;right: 1px;top: 1px;bottom: 1px;width: 30px;z-index: 3;border-top-right-radius: 2px;border-bottom-right-radius: 2px;background-color: #d9dde0;cursor: pointer;border: 1px solid #d2dae2;} .jimu-widget-layerList .exp-layerSearch-reset-btn .jimu-center-img{border-top: 1px solid rgba(255, 255, 255, 0.2);background-image: url(images/x.png);}",
         "url:widgets/LayerList/config.json": '{\r\n  "showLegend": true\r\n}\r\n',
         "*now": function(u){
             u(['dojo/i18n!*preload*widgets/LayerList/nls/Widget*["ar","cs","da","de","en","el","es","et","fi","fr","he","it","ja","ko","lt","lv","nb","nl","pl","pt-br","pt-pt","ro","ru","sv","th","tr","zh-cn","vi","ROOT"]'])
         }
     }
 });
-define("jimu/BaseWidget dojo/_base/declare dojo/_base/lang dojo/_base/array dojo/dom-construct dojo/dom-geometry dojo/dom dojo/on dojo/_base/unload dojo/aspect dojo/query jimu/dijit/Selectionbox ./LayerListView ./PopupMenu dojo/dom-style ./NlsStrings jimu/LayerInfos/LayerInfoFactory jimu/LayerInfos/LayerInfos dojo/promise/all".split(" "), function(u, w, c, r, h, d, s, l, q, a, b, x, g, n, m, t, y, e, p){
+define("jimu/BaseWidget dojo/_base/declare dojo/_base/lang dojo/_base/array dojo/dom-construct dojo/dom-geometry dojo/dom dojo/on dojo/_base/unload dojo/aspect dojo/query jimu/dijit/Selectionbox ./LayerListView ./PopupMenu dojo/dom-style ./NlsStrings jimu/LayerInfos/LayerInfoFactory jimu/LayerInfos/LayerInfos dojo/promise/all dojo/dom-attr".split(" "), function(u, w, c, r, h, d, s, l, q, a, b, x, g, n, m, t, y, e, p, domAttr){
     return w([u], {
         baseClass: "jimu-widget-layerList",
         name: "layerList",
@@ -695,7 +695,26 @@ define("jimu/BaseWidget dojo/_base/declare dojo/_base/lang dojo/_base/array dojo
                     this.own(l(this.operLayerInfos, "layerInfosChanged", c.hitch(this, this._onLayerInfosChanged)));
                     s.setSelectable(this.layersSection, !1)
                 }))
+            };
+            
+            //exp begin
+            this.own(l(this.filterTextBox, 'keydown', c.hitch(this, function(evt){
+            if (this.filterTextBox.value.length > -1)
+            {
+              this.filterTextBox.style.color = "#000000";
             }
+            else
+            {
+              this.filterTextBox.style.color = "#d9dde0";
+            }
+            
+            if (evt.keyCode === 13)
+            {
+               //console.log("enter"); 
+               this._onFilterClicked2();
+            }
+            })))
+            //exp end
         },
         destroy: function(){
             this._clearLayers();
@@ -779,6 +798,86 @@ define("jimu/BaseWidget dojo/_base/declare dojo/_base/lang dojo/_base/array dojo
         _onLayerInfosChanged: function(a, b){
             this._clearLayers();
             this.showLayers()
+        },
+        //exp begin        
+        _resetFilter: function(){
+            
+            this.filterTextBox.value = "";
+            this.filterTextBox.style.color = "#d9dde0";
+            var rowLayers = b(".jimu-widget-row.layer-row");
+            var titleLayers = b(".div-content.jimu-float-leading");
+            for (var x = 0; x < rowLayers.length; x++) 
+            {
+                m.set(titleLayers[x],"background-color","");
+                var parentClass = rowLayers[x].parentNode.getAttribute("class");
+                if (parentClass === "layers-list-body")
+                {
+                    rowLayers[x].style.display = '';
+                    
+                }
+            };
+   
+        },      
+
+        _onFilterClicked2: function (){
+            
+            var searchLength = this.filterTextBox.value.length;
+            var searchValue = this.filterTextBox.value.toString().toLowerCase();
+            var stringFound = false;
+            
+            var rowNodes = b(".jimu-widget-row.layer-row");
+            for (var x = 0; x < rowNodes.length; x++) {
+                
+                var rowTitleNode = b(".div-content.jimu-float-leading", rowNodes[x])[0];
+                m.set(rowTitleNode, "background-color", "");
+
+                if (searchLength !== 0 && rowTitleNode.innerHTML.toString().toLowerCase().indexOf(searchValue) !== -1) {
+
+                    stringFound = true;
+                    var rowID = rowNodes[x].getAttribute("layerTrNodeID");
+                    
+                    m.set(rowTitleNode, "background-color", "yellow");
+                    
+                    try {
+                    
+                        var parentGroupID = rowNodes[x].parentNode.parentNode.parentNode.getAttribute("layerContentTrNodeId");
+                        
+                        if (parentGroupID !== null)
+                        {
+                            rowNodes[x].parentNode.style.display = "table";
+                        };
+                        
+                        
+                        do {
+
+                            var parentGroupInfo = document.querySelectorAll("[layerTrNodeID='" + parentGroupID + "']")[0];
+                            var pgiParentClass = parentGroupInfo.parentNode.getAttribute("class");
+                            if (pgiParentClass !== "layers-list-body"){
+                                parentGroupInfo.parentNode.style.display = "table";
+                            };
+
+                            var parentGroupImg = b(".showLegend-image", parentGroupInfo)[0];
+                            //domClass.add(parentGroupImg, 'unfold');
+                            var imgSrc = domAttr.get(parentGroupImg, "src");
+                            var newImgSrc = imgSrc.replace("v_right.png","v.png");
+                            domAttr.set(parentGroupImg,"src",newImgSrc);
+                            parentGroupID = parentGroupInfo.parentNode.parentNode.parentNode.getAttribute("layerContentTrNodeId");
+                            
+                        }
+                        while (parentGroupID !== null);
+                        
+                    } 
+                    catch (err) {
+                        console.log(err);
+                        continue;
+                    }
+                };
+            };
+            
+            if (stringFound === false) {
+                alert("Search text not found");
+            }
         }
+        //exp end
     })
 });
