@@ -1,0 +1,141 @@
+{
+  "bookmarks2D": [
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11142691.56238342,
+        "xmin": -11537412.376447879,
+        "ymax": 6457929.919203024,
+        "ymin": 6211191.191898594
+      },
+      "name": "Canada ",
+      "isInWebmap": true,
+      "displayName": "Canada "
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11234110.248212446,
+        "xmin": -11628831.062276904,
+        "ymax": 6309947.832442994,
+        "ymin": 6063209.105138564
+      },
+      "name": "USA",
+      "isInWebmap": true,
+      "displayName": "USA"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11380888.03284609,
+        "xmin": -11405558.083725099,
+        "ymax": 6283249.974534449,
+        "ymin": 6267828.804077935
+      },
+      "name": "International Border",
+      "isInWebmap": true,
+      "displayName": "International Border"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11258913.644960186,
+        "xmin": -11357593.848476214,
+        "ymax": 6513650.2870427305,
+        "ymin": 6451965.605216677
+      },
+      "name": "Moosomin",
+      "isInWebmap": true,
+      "displayName": "Moosomin"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11260404.167011803,
+        "xmin": -11309744.268769817,
+        "ymax": 6417638.952970869,
+        "ymin": 6386796.612057841
+      },
+      "name": "Cromer",
+      "isInWebmap": true,
+      "displayName": "Cromer"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11438902.816777563,
+        "xmin": -11488242.918535577,
+        "ymax": 6187054.885700986,
+        "ymin": 6156212.544787958
+      },
+      "name": "Tioga",
+      "isInWebmap": true,
+      "displayName": "Tioga"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11467146.298728896,
+        "xmin": -11565826.502244925,
+        "ymax": 6184952.867423146,
+        "ymin": 6123268.185597093
+      },
+      "name": "Epping",
+      "isInWebmap": true,
+      "displayName": "Epping"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11509951.034568535,
+        "xmin": -11608631.238084564,
+        "ymax": 6149256.775214017,
+        "ymin": 6087572.093387964
+      },
+      "name": "Aune",
+      "isInWebmap": true,
+      "displayName": "Aune"
+    },
+    {
+      "extent": {
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "xmax": -11000522.211991187,
+        "xmin": -11778956.908047382,
+        "ymax": 6528258.190263937,
+        "ymin": 6059852.0809324
+      },
+      "name": "USA and Canada",
+      "isInWebmap": true,
+      "displayName": "USA and Canada"
+    }
+  ],
+  "bookmarks3D": [],
+  "flyTime": 3000
+}

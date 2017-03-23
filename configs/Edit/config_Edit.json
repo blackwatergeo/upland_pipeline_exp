@@ -1,0 +1,832 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": false,
+      "cutVisible": false,
+      "reshapeVisible": false
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_1938"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_900"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_3890"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_8935"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_7923"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_4986"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_4977"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_9198"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_399"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_6555"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "upland_pipeline_exp_editing_4230"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": null,
+            "visible": true
+          },
+          {
+            "fieldName": "LABEL",
+            "label": "LABEL",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "DESCRIPTION",
+            "label": "DESCRIPTION",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "COMMENTS",
+            "label": "COMMENTS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "FEATURE_TYPE",
+            "label": "FEATURE_TYPE",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "STATUS",
+            "label": "STATUS",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_BY",
+            "label": "MOD_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "MOD_COMMENT",
+            "label": "MOD_COMMENT",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "CHECKED_BY",
+            "label": "CHECKED_BY",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "REMARKS",
+            "label": "REMARKS",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "useFilterEdit": false,
+    "autoApplyEditWhenGeometryIsMoved": false,
+    "snappingTolerance": 15,
+    "popupTolerance": 5,
+    "stickyMoveTolerance": 0
+  }
+}

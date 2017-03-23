@@ -1,0 +1,1890 @@
+{
+  "layers": [
+    {
+      "name": "Kilometer Post Northgate-Moosomin",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_shared/upland_pipeline_searches/MapServer/12",
+      "definitionexpression": "",
+      "spatialsearchlayer": true,
+      "export2Csv": true,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "NORTHGATE - MOOSOMIN",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "ROUTE_POST",
+                    "label": "ROUTE_POST",
+                    "shortType": "number",
+                    "type": "esriFieldTypeDouble"
+                  },
+                  "valueObj": {
+                    "value": null
+                  },
+                  "prompt": "ENTER: Kilometer Post #",
+                  "textsearchhint": "ENTER: Kilometer Post #",
+                  "sqltext": "ROUTE_POST = [value]",
+                  "operation": "numberOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "REMARKS",
+            "alias": "Remarks"
+          },
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_DATE",
+            "alias": "MOD_DATE",
+            "isdate": true
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "CHECKED_DATE",
+            "alias": "CHECKED_DATE",
+            "isdate": true
+          },
+          {
+            "name": "ISSUED_CL_DATE",
+            "alias": "ISSUED_CL_DATE",
+            "isdate": true
+          },
+          {
+            "name": "ROUTE_ID",
+            "alias": "ROUTE_ID"
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME"
+          },
+          {
+            "name": "ROUTE_POST",
+            "alias": "ROUTE_POST",
+            "isnumber": true
+          },
+          {
+            "name": "POST_INTERVAL",
+            "alias": "POST_INTERVAL"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Mile Post Alexander-Border",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_shared/upland_pipeline_searches/MapServer/14",
+      "definitionexpression": "",
+      "spatialsearchlayer": true,
+      "export2Csv": true,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Mile Posts",
+            "textsearchlabel": "Mile Posts",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "ROUTE_POST",
+                    "label": "ROUTE_POST",
+                    "shortType": "number",
+                    "type": "esriFieldTypeDouble"
+                  },
+                  "valueObj": {
+                    "value": null
+                  },
+                  "prompt": "ENTER: Mile Post #",
+                  "textsearchhint": "ENTER: Mile Post #",
+                  "sqltext": "ROUTE_POST = [value]",
+                  "operation": "numberOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_DATE",
+            "alias": "MOD_DATE",
+            "isdate": true
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "CHECKED_DATE",
+            "alias": "CHECKED_DATE",
+            "isdate": true
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "ROUTE_ID",
+            "alias": "ROUTE_ID"
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME"
+          },
+          {
+            "name": "ROUTE_POST",
+            "alias": "ROUTE_POST",
+            "isnumber": true
+          },
+          {
+            "name": "POST_INTERVAL",
+            "alias": "POST_INTERVAL"
+          },
+          {
+            "name": "ISSUED_CL_DATE",
+            "alias": "ISSUED_CL_DATE",
+            "isdate": true
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Workspaces",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_exp/upland_pipeline_exp_editing/MapServer/5",
+      "definitionexpression": "",
+      "spatialsearchlayer": true,
+      "export2Csv": true,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Label",
+            "textsearchlabel": "Label",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "LABEL",
+                    "label": "LABEL",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Workspace polygons with this LABEL",
+                  "textsearchhint": "Show Workspace polygons with this LABEL",
+                  "sqltext": "LABEL = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "LABEL"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Status",
+            "textsearchlabel": "Status",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "STATUS",
+                    "label": "STATUS",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Show Workspace polygons with this STATUS",
+                  "textsearchhint": "Show Workspace polygons with this STATUS",
+                  "sqltext": "Upper(STATUS) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "DESCRIPTION",
+            "alias": "DESCRIPTION"
+          },
+          {
+            "name": "COMMENTS",
+            "alias": "COMMENTS"
+          },
+          {
+            "name": "LABEL",
+            "alias": "LABEL"
+          },
+          {
+            "name": "TYPE",
+            "alias": "TYPE"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "Shape.STArea()",
+            "alias": "Shape.STArea()",
+            "isnumber": true
+          },
+          {
+            "name": "Shape.STLength()",
+            "alias": "Shape.STLength()",
+            "isnumber": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Spreads",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_exp/upland_pipeline_exp_editing/MapServer/1",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Label",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "LABEL",
+                    "label": "LABEL",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Spread points with this LABEL",
+                  "textsearchhint": "Show Spread points with this LABEL",
+                  "sqltext": "LABEL = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "LABEL"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Status",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "STATUS",
+                    "label": "STATUS",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Spread points with this STATUS",
+                  "textsearchhint": "Show Spread points with this STATUS",
+                  "sqltext": "STATUS = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "STATUS"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Last Edited User",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "last_edited_user",
+                    "label": "last_edited_user",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Show Spread points with this Last Edited User",
+                  "textsearchhint": "Show Spread points with this Last Edited User",
+                  "sqltext": "Upper(last_edited_user) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Last Edited Date",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "last_edited_date",
+                    "label": "last_edited_date",
+                    "shortType": "date",
+                    "type": "esriFieldTypeDate"
+                  },
+                  "valueObj": {
+                    "value1": "[value]",
+                    "value2": "[value]"
+                  },
+                  "prompt": "last_edited_date is between",
+                  "textsearchhint": "Show Spread points with this Last Edited Date",
+                  "sqltext": "last_edited_date BETWEEN timestamp '[value1]' AND timestamp '[value2]'",
+                  "operation": "dateOperatorIsBetween"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "DESCRIPTION",
+            "alias": "DESCRIPTION"
+          },
+          {
+            "name": "COMMENTS",
+            "alias": "COMMENTS"
+          },
+          {
+            "name": "LABEL",
+            "alias": "LABEL"
+          },
+          {
+            "name": "TYPE",
+            "alias": "TYPE"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Crossings",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_exp/upland_pipeline_exp_editing/MapServer/0",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Label",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "LABEL",
+                    "label": "LABEL",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Crossing points with this LABEL",
+                  "textsearchhint": "Show Crossing points with this LABEL",
+                  "sqltext": "LABEL = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "LABEL"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Status",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "STATUS",
+                    "label": "STATUS",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Crossing points with this STATUS",
+                  "textsearchhint": "Show Crossing points with this STATUS",
+                  "sqltext": "STATUS = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "STATUS"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Last Edited User",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "last_edited_user",
+                    "label": "last_edited_user",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Crossing points with this Last Edited User",
+                  "textsearchhint": "Show Crossing points with this Last Edited User",
+                  "sqltext": "last_edited_user = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "last_edited_user"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Last Edited Date",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "last_edited_date",
+                    "label": "last_edited_date",
+                    "shortType": "date",
+                    "type": "esriFieldTypeDate"
+                  },
+                  "valueObj": {
+                    "value": "Wed Mar 22 2017"
+                  },
+                  "prompt": "Show Crossing points with this Last Edited Date",
+                  "textsearchhint": "Show Crossing points with this Last Edited Date",
+                  "sqltext": "last_edited_date BETWEEN timestamp '[value]' AND timestamp '[value]'",
+                  "operation": "dateOperatorIsOn"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "DESCRIPTION",
+            "alias": "DESCRIPTION"
+          },
+          {
+            "name": "COMMENTS",
+            "alias": "COMMENTS"
+          },
+          {
+            "name": "LABEL",
+            "alias": "LABEL"
+          },
+          {
+            "name": "TYPE",
+            "alias": "TYPE"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": null,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Reroutes",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_exp/upland_pipeline_exp_editing/MapServer/3",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Label",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "LABEL",
+                    "label": "LABEL",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Crossing points with this LABEL",
+                  "textsearchhint": "Show Crossing points with this LABEL",
+                  "sqltext": "LABEL = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "LABEL"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Status",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "STATUS",
+                    "label": "STATUS",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Crossing points with this Status",
+                  "textsearchhint": "Show Crossing points with this Status",
+                  "sqltext": "STATUS = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "STATUS"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Last Edited User",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "STATUS",
+                    "label": "STATUS",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Show Crossing points with this Status",
+                  "textsearchhint": "Show Crossing points with this Status",
+                  "sqltext": "STATUS = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "STATUS"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Last Edited Date",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "last_edited_date",
+                    "label": "last_edited_date",
+                    "shortType": "date",
+                    "type": "esriFieldTypeDate"
+                  },
+                  "valueObj": {
+                    "value1": "[value]",
+                    "value2": "[value]"
+                  },
+                  "prompt": "last_edited_date is between",
+                  "textsearchhint": "Show Crossing points with this Last Edited Date",
+                  "sqltext": "last_edited_date BETWEEN timestamp '[value1]' AND timestamp '[value2]'",
+                  "operation": "dateOperatorIsBetween"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "DESCRIPTION",
+            "alias": "DESCRIPTION"
+          },
+          {
+            "name": "COMMENTS",
+            "alias": "COMMENTS"
+          },
+          {
+            "name": "LABEL",
+            "alias": "LABEL"
+          },
+          {
+            "name": "TYPE",
+            "alias": "TYPE"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "isnumber": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": null,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Canada Parcel Search",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_shared/upland_pipeline_searches/MapServer/8",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Tract ID",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "TRACT_ID",
+                    "label": "TRACT_ID",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Tract ID Is:",
+                  "textsearchhint": "Example Tract ID: CR-SK-0015-E-ST",
+                  "sqltext": "Upper(TRACT_ID) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_DATE",
+            "alias": "MOD_DATE",
+            "isdate": true
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "CHECKED_DATE",
+            "alias": "CHECKED_DATE",
+            "isdate": true
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "PROVINCE",
+            "alias": "PROVINCE"
+          },
+          {
+            "name": "MUNICIPALITY",
+            "alias": "MUNICIPALITY"
+          },
+          {
+            "name": "PARCEL_TYPE",
+            "alias": "PARCEL_TYPE"
+          },
+          {
+            "name": "PPID",
+            "alias": "PPID"
+          },
+          {
+            "name": "PARCEL_ID",
+            "alias": "PARCEL_ID"
+          },
+          {
+            "name": "TRACT_ID",
+            "alias": "TRACT_ID"
+          },
+          {
+            "name": "ROW_IMPACT",
+            "alias": "ROW_IMPACT"
+          },
+          {
+            "name": "ADDTL_IMPACT",
+            "alias": "ADDTL_IMPACT"
+          },
+          {
+            "name": "CALCULATED_AREA",
+            "alias": "CALCULATED_AREA",
+            "isnumber": true
+          },
+          {
+            "name": "AREA_UNIT",
+            "alias": "AREA_UNIT"
+          },
+          {
+            "name": "TAX_ID",
+            "alias": "TAX_ID"
+          },
+          {
+            "name": "MOD_DATE_LAND",
+            "alias": "MOD_DATE_LAND",
+            "isdate": true
+          },
+          {
+            "name": "MOD_COMMENTS_LAND",
+            "alias": "MOD_COMMENTS_LAND"
+          },
+          {
+            "name": "OWNER_CLASS",
+            "alias": "OWNER_CLASS"
+          },
+          {
+            "name": "OWNER_NAME",
+            "alias": "OWNER_NAME"
+          },
+          {
+            "name": "OWNERSHIP_TYPE",
+            "alias": "OWNERSHIP_TYPE"
+          },
+          {
+            "name": "QSECTION",
+            "alias": "QSECTION"
+          },
+          {
+            "name": "SECTION",
+            "alias": "SECTION"
+          },
+          {
+            "name": "TOWNSHIP",
+            "alias": "TOWNSHIP"
+          },
+          {
+            "name": "RANGE",
+            "alias": "RANGE"
+          },
+          {
+            "name": "MERIDIAN",
+            "alias": "MERIDIAN"
+          },
+          {
+            "name": "SHORT_LEGAL",
+            "alias": "SHORT_LEGAL"
+          },
+          {
+            "name": "LEGAL_DESC",
+            "alias": "LEGAL_DESC"
+          },
+          {
+            "name": "LEGAL_ACRES",
+            "alias": "LEGAL_ACRES",
+            "isnumber": true
+          },
+          {
+            "name": "SURVEY_PERMISSION",
+            "alias": "SURVEY_PERMISSION"
+          },
+          {
+            "name": "ACQUISITION_STATUS",
+            "alias": "ACQUISITION_STATUS"
+          },
+          {
+            "name": "SURVEY_CONDITIONS",
+            "alias": "SURVEY_CONDITIONS"
+          },
+          {
+            "name": "LAND_AGENT",
+            "alias": "LAND_AGENT"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "Shape.area",
+            "alias": "Shape.area",
+            "isnumber": true
+          },
+          {
+            "name": "Shape.len",
+            "alias": "Shape.len",
+            "isnumber": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": null,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "US Parcel Search",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_shared/upland_pipeline_searches/MapServer/9",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "US Parcel Search",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "TRACT_ID",
+                    "label": "TRACT_ID",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "TRACT_ID is",
+                  "textsearchhint": "Example Tract ID: ND-WI-082.505.1090",
+                  "sqltext": "Upper(TRACT_ID) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_DATE",
+            "alias": "MOD_DATE",
+            "isdate": true
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "CHECKED_DATE",
+            "alias": "CHECKED_DATE",
+            "isdate": true
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "TRACT_ID",
+            "alias": "TRACT_ID"
+          },
+          {
+            "name": "ROW_IMPACT",
+            "alias": "ROW_IMPACT"
+          },
+          {
+            "name": "ADDTL_IMPACT",
+            "alias": "ADDTL_IMPACT"
+          },
+          {
+            "name": "CALCULATED_AREA",
+            "alias": "CALCULATED_AREA",
+            "isnumber": true
+          },
+          {
+            "name": "AREA_UNIT",
+            "alias": "AREA_UNIT"
+          },
+          {
+            "name": "TAX_ID",
+            "alias": "TAX_ID"
+          },
+          {
+            "name": "STATE",
+            "alias": "STATE"
+          },
+          {
+            "name": "COUNTY",
+            "alias": "COUNTY"
+          },
+          {
+            "name": "MOD_DATE_LAND",
+            "alias": "MOD_DATE_LAND",
+            "isdate": true
+          },
+          {
+            "name": "MOD_COMMENTS_LAND",
+            "alias": "MOD_COMMENTS_LAND"
+          },
+          {
+            "name": "OWNER_NAME",
+            "alias": "OWNER_NAME"
+          },
+          {
+            "name": "OWNER_CLASS",
+            "alias": "OWNER_CLASS"
+          },
+          {
+            "name": "OWNERSHIP_TYPE",
+            "alias": "OWNERSHIP_TYPE"
+          },
+          {
+            "name": "MERIDIAN",
+            "alias": "MERIDIAN"
+          },
+          {
+            "name": "TOWNSHIP",
+            "alias": "TOWNSHIP"
+          },
+          {
+            "name": "RANGE",
+            "alias": "RANGE"
+          },
+          {
+            "name": "SECTION",
+            "alias": "SECTION"
+          },
+          {
+            "name": "SHORT_LEGAL",
+            "alias": "SHORT_LEGAL"
+          },
+          {
+            "name": "LEGAL_ACRES",
+            "alias": "LEGAL_ACRES",
+            "isnumber": true
+          },
+          {
+            "name": "LEGAL_DESC",
+            "alias": "LEGAL_DESC"
+          },
+          {
+            "name": "SURVEY_PERMISSION",
+            "alias": "SURVEY_PERMISSION"
+          },
+          {
+            "name": "SURVEY_CONDITION",
+            "alias": "SURVEY_CONDITION"
+          },
+          {
+            "name": "ACQUISITION_STATUS",
+            "alias": "ACQUISITION_STATUS"
+          },
+          {
+            "name": "LAND_AGENT",
+            "alias": "LAND_AGENT"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "SHAPE.area",
+            "alias": "SHAPE.area",
+            "isnumber": true
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "isnumber": true
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": null,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Cultural Site--Avoidance",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_shared/upland_pipeline_searches/MapServer/0",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Cultural Sites--Avoidance",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "AVOID",
+                    "label": "AVOID",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {},
+                  "prompt": "Show Cultural Sites  To Avoid or Not",
+                  "textsearchhint": "Show Cultural Sites  To Avoid or Not",
+                  "sqltext": "AVOID = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "AVOID"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_DATE",
+            "alias": "MOD_DATE",
+            "isdate": true
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "CHECKED_DATE",
+            "alias": "CHECKED_DATE",
+            "isdate": true
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "FEATURE_ID",
+            "alias": "FEATURE_ID"
+          },
+          {
+            "name": "SITE_TYPE",
+            "alias": "SITE_TYPE"
+          },
+          {
+            "name": "FIELD_DESCRIPTION",
+            "alias": "FIELD_DESCRIPTION"
+          },
+          {
+            "name": "TRACT_ID",
+            "alias": "TRACT_ID"
+          },
+          {
+            "name": "ELIGIBILITY",
+            "alias": "ELIGIBILITY"
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE"
+          },
+          {
+            "name": "SMITH_ID",
+            "alias": "SMITH_ID"
+          },
+          {
+            "name": "CREW_NUMBER",
+            "alias": "CREW_NUMBER"
+          },
+          {
+            "name": "DATE_SURVEYED",
+            "alias": "DATE_SURVEYED",
+            "isdate": true
+          },
+          {
+            "name": "DATE_SUBMITTED",
+            "alias": "DATE_SUBMITTED",
+            "isdate": true
+          },
+          {
+            "name": "PHOTO_ID",
+            "alias": "PHOTO_ID"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "SHAPE.area",
+            "alias": "SHAPE.area",
+            "isnumber": true
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "isnumber": true
+          },
+          {
+            "name": "AVOID",
+            "alias": "AVOID"
+          },
+          {
+            "name": "AVOID_ID",
+            "alias": "AVOID_ID"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": null,
+      "layersymbolfrom": "server"
+    },
+    {
+      "name": "Environmental",
+      "url": "https://gis.exp.com/exp/rest/services/upland_pipeline_shared/upland_pipeline_searches/MapServer/18",
+      "definitionexpression": "",
+      "spatialsearchlayer": false,
+      "export2Csv": false,
+      "zoomScale": 10000,
+      "forceZoomScale": false,
+      "shareResult": false,
+      "addToAttrib": false,
+      "expressions": {
+        "expression": [
+          {
+            "alias": "Waterbodies",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "FEATURE_ID",
+                    "label": "FEATURE_ID",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Show waterbodies with this feature",
+                  "textsearchhint": "Show waterbodies with this feature",
+                  "sqltext": "Upper(FEATURE_ID) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Status",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "STATUS",
+                    "label": "STATUS",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Show waterbodies with this Status",
+                  "textsearchhint": "Show waterbodies with this Status",
+                  "sqltext": "Upper(STATUS) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "Classification",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "CLASSIFICATION",
+                    "label": "CLASSIFICATION",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": ""
+                  },
+                  "prompt": "Show waterbodies with this Classification",
+                  "textsearchhint": "Show waterbodies with this Classification",
+                  "sqltext": "Upper(CLASSIFICATION) = Upper('[value]')",
+                  "operation": "stringOperatorIs"
+                }
+              ]
+            }
+          },
+          {
+            "alias": "All Waterbodies",
+            "textsearchlabel": "",
+            "values": {
+              "value": [
+                {
+                  "fieldObj": {
+                    "name": "FEATURE_TYPE",
+                    "label": "FEATURE_TYPE",
+                    "shortType": "string",
+                    "type": "esriFieldTypeString"
+                  },
+                  "valueObj": {
+                    "value": "allu"
+                  },
+                  "prompt": "FEATURE_TYPE is",
+                  "textsearchhint": "All Waterbodies",
+                  "sqltext": "FEATURE_TYPE = '[value]'",
+                  "operation": "stringOperatorIs",
+                  "uniquevalsfromfield": "FEATURE_TYPE"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "titlefield": null,
+      "fields": {
+        "all": false,
+        "field": [
+          {
+            "name": "FEATURE_TYPE",
+            "alias": "FEATURE_TYPE"
+          },
+          {
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "name": "MOD_DATE",
+            "alias": "MOD_DATE",
+            "isdate": true
+          },
+          {
+            "name": "MOD_BY",
+            "alias": "MOD_BY"
+          },
+          {
+            "name": "MOD_COMMENT",
+            "alias": "MOD_COMMENT"
+          },
+          {
+            "name": "CHECKED_BY",
+            "alias": "CHECKED_BY"
+          },
+          {
+            "name": "CHECKED_DATE",
+            "alias": "CHECKED_DATE",
+            "isdate": true
+          },
+          {
+            "name": "REMARKS",
+            "alias": "REMARKS"
+          },
+          {
+            "name": "CLASSIFICATION",
+            "alias": "CLASSIFICATION"
+          },
+          {
+            "name": "FEATURE_ID",
+            "alias": "FEATURE_ID"
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME"
+          },
+          {
+            "name": "SOURCE",
+            "alias": "SOURCE"
+          },
+          {
+            "name": "CREW_NUMBER",
+            "alias": "CREW_NUMBER"
+          },
+          {
+            "name": "DATE_SURVEYED",
+            "alias": "DATE_SURVEYED",
+            "isdate": true
+          },
+          {
+            "name": "DATE_SUBMITTED",
+            "alias": "DATE_SUBMITTED",
+            "isdate": true
+          },
+          {
+            "name": "PHOTO_ID",
+            "alias": "PHOTO_ID"
+          },
+          {
+            "name": "created_user",
+            "alias": "created_user"
+          },
+          {
+            "name": "created_date",
+            "alias": "created_date",
+            "isdate": true
+          },
+          {
+            "name": "last_edited_user",
+            "alias": "last_edited_user"
+          },
+          {
+            "name": "last_edited_date",
+            "alias": "last_edited_date",
+            "isdate": true
+          },
+          {
+            "name": "SHAPE.area",
+            "alias": "SHAPE.area",
+            "isnumber": true
+          },
+          {
+            "name": "SHAPE.len",
+            "alias": "SHAPE.len",
+            "isnumber": true
+          },
+          {
+            "name": "GIS_ID",
+            "alias": "GIS_ID"
+          },
+          {
+            "name": "EXP_SURVEY_FIELD_ID",
+            "alias": "EXP_SURVEY_FIELD_ID"
+          }
+        ]
+      },
+      "links": {
+        "link": []
+      },
+      "orderByFields": [],
+      "layersymbolfrom": "server"
+    }
+  ],
+  "initialView": "text",
+  "selectfilter": "contains",
+  "enablePopupsOnResultClick": true,
+  "disablePopups": false,
+  "disableuvcache": false,
+  "exportsearchurlchecked": false,
+  "limitsearch2mapextentchecked": false,
+  "autozoomtoresults": true,
+  "mouseovergraphics": false,
+  "bufferDefaults": {
+    "addtolegend": false,
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+        },
+        {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+        },
+        {
+          "name": "UNIT_METER",
+          "label": "Meter"
+        }
+      ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "spatialrelationships": {
+    "spatialrelationship": [
+      {
+        "name": "esriSpatialRelContains",
+        "label": "entirely contained in"
+      },
+      {
+        "name": "esriSpatialRelIntersects",
+        "label": "intersected by"
+      },
+      {
+        "name": "esriSpatialRelEnvelopeIntersects",
+        "label": "intersected by envelope of"
+      }
+    ]
+  },
+  "graphicalsearchoptions": {
+    "enablepointselect": true,
+    "enablelineselect": true,
+    "enablepolylineselect": true,
+    "enableextentselect": true,
+    "enablecircleselect": true,
+    "enablepolyselect": true,
+    "showmultigraphicsgraphicaloption": true,
+    "showaddtolerancegraphicaloption": true,
+    "showaddsqltextgraphicaloption": true,
+    "showbuffergraphicaloption": true,
+    "buffercheckedbydefaultgraphicaloption": false,
+    "multipartgraphicsearchchecked": false,
+    "addpointtolerancechecked": false,
+    "keepgraphicalsearchenabled": true
+  },
+  "symbols": {
+    "simplemarkersymbol": null,
+    "picturemarkersymbol": {
+      "url": "images/i_search.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "simplelinesymbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+        255,
+        0,
+        0,
+        204
+      ],
+      "width": 2
+    },
+    "simplefillsymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        128
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          204
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "resultFormat": {
+    "attTitlesymbol": {
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "attValuesymbol": {
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "color": [
+        0,
+        0,
+        0,
+        255
+      ]
+    }
+  }
+}

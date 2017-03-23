@@ -1,0 +1,195 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"
+          },
+          {
+            "id": "World_Dark_Gray_Reference_8618",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "isReference": true
+          }
+        ],
+        "title": "Dark Gray Canvas",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/eaec17032c944830a0fee7017451f6d9/info/thumbnail/DGCanvasBase.png",
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_2017",
+            "visibility": true,
+            "opacity": 1,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+          }
+        ],
+        "title": "Imagery",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/d0135822507947b2a3809af36f2d91e6/info/thumbnail/tempimagery.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_6611",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+          },
+          {
+            "id": "World_Boundaries_and_Places_1145",
+            "isReference": true,
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer"
+          }
+        ],
+        "title": "Imagery with Labels",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/30699b07b44f47ef929b9e216594a7db/info/thumbnail/imagery_labels.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Light_Gray_Base_1486",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer"
+          },
+          {
+            "id": "World_Light_Gray_Reference_8656",
+            "isReference": true,
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer"
+          }
+        ],
+        "title": "Light Gray Canvas",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/a9bfcd532c964b96ba617a0874423805/info/thumbnail/light_gray_canvas.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "NatGeo_World_Map_2536",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer"
+          }
+        ],
+        "title": "National Geographic",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/7634c349af5c4ca6ac70078db97d80fd/info/thumbnail/natgeo.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "Ocean_Basemap_2089",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer"
+          },
+          {
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Reference/MapServer",
+            "id": "World_Ocean_Reference_1261",
+            "isReference": true,
+            "visibility": true,
+            "opacity": 1
+          }
+        ],
+        "title": "Oceans",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/b548883bdf3e482d8e28e2b8717a3d84/info/thumbnail/tempoceans.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "visibility": true,
+            "opacity": 1,
+            "type": "OpenStreetMap"
+          }
+        ],
+        "title": "OpenStreetMap",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/cb4f9f9b2242489c883a48ac7320b51b/info/thumbnail/temposm.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Street_Map_8421",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"
+          }
+        ],
+        "title": "Streets",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/dbf4603731084f8bb2d1d6198c20bef4/info/thumbnail/world_street_map.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Terrain_Base_3",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer"
+          },
+          {
+            "id": "World_Reference_Overlay_5790",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "isReference": true,
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer"
+          }
+        ],
+        "title": "Terrain with Labels",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/dc3aa6bfb50a4609bdd396daef45998c/info/thumbnail/terrain_labels.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "defaultBasemap",
+            "opacity": 1,
+            "visibility": true,
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+          }
+        ],
+        "title": "Topographic",
+        "thumbnailUrl": "//gisbeta.exp.com/exp_portal/sharing/rest/content/items/9d98f7113f9b469c8c302b210db7b922/info/thumbnail/topo_map_2.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      }
+    ]
+  }
+}
