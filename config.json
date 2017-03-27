@@ -320,22 +320,7 @@
         "id": "widgets_AddShapefile_Widget_27",
         "icon": "widgets/AddShapefile/images/icon.png?wab_dv=2.1"
       },
-      {
-        "name": "Edit",
-        "label": "Edit",
-        "version": "2.1",
-        "featureActions": [
-          {
-            "name": "Edit",
-            "uri": "EditFeatureAction"
-          }
-        ],
-        "icon": "configs\\Edit\\icon_Edit.png",
-        "uri": "widgets/Edit/Widget",
-        "index": 9,
-        "id": "widgets_Edit_Widget_19",
-        "config": "configs/Edit/config_Edit.json"
-      },
+    
       {
         "name": "LayerList",
         "label": "Edit Layers",
